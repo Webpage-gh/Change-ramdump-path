@@ -1,0 +1,6 @@
+id=ramdump
+name=Change ramdump path
+version=v1.0
+versionCode=1
+author=Webpage
+description=通过设置persist.sys.ssr.data为true使MIUI质量服务不在内部存储写入ramdump文件夹
