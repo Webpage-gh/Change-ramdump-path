@@ -4,6 +4,9 @@
 # 安装
 请从[发布](https://github.com/Webpage-gh/Change-ramdump-path/releases/latest)中下载最新版本，然后使用Magisk，KernelSU 或 Apatch中安装这个模块。这个模块目前只在Apatch上测试过。
 
+# 归档
+此存储没有必要进行更新，因此进行归档。
+
 # 模块从何而来
 很久之前，我在MIUI14的部分设备上发现每次开机时，总有程序在创建这个空文件夹。通过 [Cleaner](https://github.com/MaterialCleaner/MaterialCleaner) 追踪发现，这是一个由 UID 为 1000 的应用创建的。今天，我提取了这些应用的安装包，并逐个搜索文件内容包含`ramdump`字符串的安装包：
 - com.miui.qr.InfoApplication(com.miui.qr)
